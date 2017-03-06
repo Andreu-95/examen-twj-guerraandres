@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="62fb5612-476f-40ad-9773-ec91f795471e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PasteleriaFE/src/app/services/master-url.service.ts" afterPath="$PROJECT_DIR$/PasteleriaFE/src/app/services/master-url.service.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -29,12 +29,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="master-url.service.ts" pinned="false" current-in-tab="true">
+      <file leaf-file-name="master-url.service.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PasteleriaFE/src/app/services/master-url.service.ts">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="174">
               <caret line="7" column="6" lean-forward="false" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="87">
+                <caret line="3" column="21" lean-forward="false" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+                <folding />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -72,6 +85,7 @@
         <option value="$PROJECT_DIR$/PasteleriaFE/src/app/pasteleria/pasteleria.component.html" />
         <option value="$PROJECT_DIR$/PasteleriaBE/config/routes.js" />
         <option value="$PROJECT_DIR$/PasteleriaFE/src/app/services/master-url.service.ts" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -416,12 +430,12 @@
       <option name="presentableId" value="Default" />
       <updated>1488694346757</updated>
       <workItem from="1488694348450" duration="16080000" />
-      <workItem from="1488767091677" duration="12688000" />
+      <workItem from="1488767091677" duration="12807000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28768000" />
+    <option name="totallyTimeSpent" value="28887000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
@@ -662,6 +676,17 @@
         <state relative-caret-position="174">
           <caret line="7" column="6" lean-forward="false" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="87">
+            <caret line="3" column="21" lean-forward="false" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
