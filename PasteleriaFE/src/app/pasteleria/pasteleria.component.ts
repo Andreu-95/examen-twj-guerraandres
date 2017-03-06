@@ -12,7 +12,6 @@ export class PasteleriaComponent implements OnInit {
 
   nuevaPasteleria = {};
   editarPasteleria = {};
-  sinEditar = {};
   pastelerias = [];
   formulario = {
     crearCerrado: true,

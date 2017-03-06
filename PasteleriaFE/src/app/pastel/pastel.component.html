@@ -1,12 +1,13 @@
-<div class="container">
+<div class="container animated slideInUp">
   <h2>Lista de Pasteles - {{pasteleria.nombre}}</h2>
   <div class="row">
     <div class="col-sm-6"></div>
-    <div class="col-sm-3">
+    <div class="col-sm-3" [hidden]="!formularioP.crearCerrado">
       <a (click)="formularioP.crearCerrado = !formularioP.crearCerrado" class="btn btn-block btn-success">
         Añadir Pastel
       </a>
     </div>
+    <div class="col-sm-3" [hidden]="formularioP.crearCerrado"></div>
     <div class="col-sm-3">
       <a [routerLink]="['/Pastelerias']" class="btn btn-block btn-info">
         Regresar a Pastelerías
@@ -14,7 +15,7 @@
     </div>
   </div>
   <br>
-  <div class="row" [hidden]="formularioP.crearCerrado">
+  <div class="row animated zoomIn" [hidden]="formularioP.crearCerrado">
     <div class="col-sm-4"></div>
     <div class="col-sm-4">
       <div class="panel panel-default">
@@ -50,7 +51,7 @@
     <div class="col-sm-4"></div>
   </div>
   <br>
-  <div class="row" [hidden]="formularioP.editarCerrado">
+  <div class="row animated zoomIn" [hidden]="formularioP.editarCerrado">
     <div class="col-sm-4"></div>
     <div class="col-sm-4">
       <div class="panel panel-default">
