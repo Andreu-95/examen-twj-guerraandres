@@ -1,3 +1,104 @@
-<p>
-  pastel works!
-</p>
+<div class="container">
+  <h2>Lista de Pasteles - {{pasteleria.nombre}}</h2>
+  <div class="row">
+    <div class="col-sm-6"></div>
+    <div class="col-sm-3">
+      <a (click)="formularioP.crearCerrado = !formularioP.crearCerrado" class="btn btn-block btn-success">
+        Añadir Pastel
+      </a>
+    </div>
+    <div class="col-sm-3">
+      <a [routerLink]="['/Pastelerias']" class="btn btn-block btn-info">
+        Regresar a Pastelerías
+      </a>
+    </div>
+  </div>
+  <br>
+  <div class="row" [hidden]="formularioP.crearCerrado">
+    <div class="col-sm-4"></div>
+    <div class="col-sm-4">
+      <form autocomplete="off" (ngSubmit)="crearPastel(NuevoPastelForm)" #NuevoPastelForm="ngForm">
+        <div class="form-group">
+          <label for="nombre">Nombre</label>
+          <input type="text" class="form-control" id="nombre" placeholder="Ingrese el nombre del Pastel"
+                 name="nombre" required [(ngModel)]="nuevoPastel.nombre">
+        </div>
+        <div class="form-group">
+          <label for="tiempoElaboracion">Tiempo Elaboración (Minutos)</label>
+          <input type="number" class="form-control" id="tiempoElaboracion"
+                 min="10" step="10" name="tiempoElaboracion" onkeypress="return false;" required
+                 [(ngModel)]="nuevoPastel.tiempoElaboracion">
+        </div>
+        <div class=" form-group">
+          <label for="urlFoto">Foto (URL)</label>
+          <input type="text" class="form-control" id="urlFoto" placeholder="Ingrese la url de la foto del pastel"
+                 name="urlFoto" required [(ngModel)]="nuevoPastel.urlFoto">
+        </div>
+        <button type="submit" class="btn btn-success"
+                [disabled]="disabledButtonsP.CrearFormSubmitButton || !NuevoPastelForm.valid">Añadir Pastel
+        </button>
+        <button type="button" class="btn btn-warning"
+                (click)="formularioP.crearCerrado = !formularioP.crearCerrado">Cancelar
+        </button>
+      </form>
+    </div>
+    <div class="col-sm-4"></div>
+  </div>
+  <br>
+  <div class="row" [hidden]="formularioP.editarCerrado">
+    <div class="col-sm-4"></div>
+    <div class="col-sm-4">
+      <form autocomplete="off" (ngSubmit)="actualizarPastel(editarPastel)" #ActualizarPastelForm="ngForm">
+        <div class="form-group">
+          <label for="nombreEditar">Nombre</label>
+          <input type="text" class="form-control" id="nombreEditar" placeholder="Ingrese el nombre del Pastel"
+                 name="nombre" [(ngModel)]="editarPastel.nombre">
+        </div>
+        <div class="form-group">
+          <label for="tiempoElaboracionEditar">Tiempo Elaboración (Minutos)</label>
+          <input type="number" class="form-control" id="tiempoElaboracionEditar"
+                 min="10" step="10" name="tiempoElaboracion" onkeypress="return false;"
+                 [(ngModel)]="editarPastel.tiempoElaboracion">
+        </div>
+        <div class="form-group">
+          <label for="urlFotoEditar">Foto (URL)</label>
+          <input type="text" class="form-control" id="urlFotoEditar" placeholder="Ingrese la url de la foto del pastel"
+                 name="urlFoto" [(ngModel)]="editarPastel.urlFoto">
+        </div>
+        <button type="submit" class="btn btn-success"
+                [disabled]="disabledButtonsP.EditarFormSubmitButton || !ActualizarPastelForm.valid">Editar Pastel
+        </button>
+        <button type="button" class="btn btn-warning"
+                (click)="formularioP.editarCerrado = !formularioP.editarCerrado">Cancelar
+        </button>
+      </form>
+    </div>
+    <div class="col-sm-4"></div>
+  </div>
+  <br>
+  <div class="table-responsive">
+    <table class="table">
+      <tr>
+        <th>Nombre</th>
+        <th>Tiempo Elaboración (Minutos)</th>
+        <th>Foto</th>
+        <th>Editar</th>
+        <th>Eliminar</th>
+      </tr>
+      <tr *ngFor="let pastel of pasteles">
+        <td>{{pastel.nombre}}</td>
+        <td>{{pastel.tiempoElaboracion}}</td>
+        <td>
+          <img src="{{pastel.urlFoto}}" alt="{{pastel.nombre}}" width="150" height="100">
+        </td>
+        <td>
+          <a (click)="formularioP.editarCerrado = !formularioP.editarCerrado; editarPastel = pastel;"
+             class="btn btn-info btn-block">Editar</a>
+        </td>
+        <td>
+          <a (click)="borrarPastel(pastel.id)" class="btn btn-danger btn-block">Eliminar</a>
+        </td>
+      </tr>
+    </table>
+  </div>
+</div>
