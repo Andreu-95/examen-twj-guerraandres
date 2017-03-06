@@ -3,9 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="62fb5612-476f-40ad-9773-ec91f795471e" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PasteleriaBE/config/models.js" afterPath="$PROJECT_DIR$/PasteleriaBE/config/models.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PasteleriaFE/src/app/pastel/pastel.component.html" afterPath="$PROJECT_DIR$/PasteleriaFE/src/app/pastel/pastel.component.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PasteleriaFE/src/app/pastel/pastel.component.ts" afterPath="$PROJECT_DIR$/PasteleriaFE/src/app/pastel/pastel.component.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PasteleriaFE/src/app/pasteleria/pasteleria.component.html" afterPath="$PROJECT_DIR$/PasteleriaFE/src/app/pasteleria/pasteleria.component.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PasteleriaFE/src/app/pasteleria/pasteleria.component.ts" afterPath="$PROJECT_DIR$/PasteleriaFE/src/app/pasteleria/pasteleria.component.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PasteleriaFE/src/index.html" afterPath="$PROJECT_DIR$/PasteleriaFE/src/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -35,18 +37,18 @@
       <file leaf-file-name="pasteleria.component.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PasteleriaFE/src/app/pasteleria/pasteleria.component.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-580">
-              <caret line="67" column="17" lean-forward="true" selection-start-line="65" selection-start-column="8" selection-end-line="67" selection-end-column="17" />
+            <state relative-caret-position="-1218">
+              <caret line="51" column="73" lean-forward="false" selection-start-line="51" selection-start-column="73" selection-end-line="51" selection-end-column="73" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pastel.component.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="pastel.component.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PasteleriaFE/src/app/pastel/pastel.component.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="203">
-              <caret line="10" column="26" lean-forward="false" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+            <state relative-caret-position="232">
+              <caret line="105" column="200" lean-forward="false" selection-start-line="105" selection-start-column="200" selection-end-line="105" selection-end-column="200" />
               <folding />
             </state>
           </provider>
@@ -55,8 +57,8 @@
       <file leaf-file-name="pasteleria.component.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PasteleriaFE/src/app/pasteleria/pasteleria.component.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="111" column="3" lean-forward="true" selection-start-line="96" selection-start-column="2" selection-end-line="111" selection-end-column="3" />
+            <state relative-caret-position="203">
+              <caret line="91" column="13" lean-forward="true" selection-start-line="89" selection-start-column="10" selection-end-line="91" selection-end-column="13" />
               <folding>
                 <element signature="e#0#48#0" expanded="true" />
               </folding>
@@ -64,11 +66,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pastel.component.ts" pinned="false" current-in-tab="false">
+      <file leaf-file-name="pastel.component.ts" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/PasteleriaFE/src/app/pastel/pastel.component.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1885">
-              <caret line="122" column="41" lean-forward="true" selection-start-line="122" selection-start-column="41" selection-end-line="122" selection-end-column="41" />
+            <state relative-caret-position="2320">
+              <caret line="107" column="37" lean-forward="false" selection-start-line="107" selection-start-column="37" selection-end-line="107" selection-end-column="37" />
               <folding>
                 <element signature="e#0#48#0" expanded="true" />
               </folding>
@@ -79,8 +81,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PasteleriaFE/src/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="29">
-              <caret line="2" column="6" lean-forward="false" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+            <state relative-caret-position="290">
+              <caret line="11" column="58" lean-forward="false" selection-start-line="11" selection-start-column="58" selection-end-line="11" selection-end-column="58" />
               <folding />
             </state>
           </provider>
@@ -118,15 +120,15 @@
         <option value="$PROJECT_DIR$/PasteleriaBE/config/cors.js" />
         <option value="$PROJECT_DIR$/PasteleriaFE/src/app/app.module.ts" />
         <option value="$PROJECT_DIR$/PasteleriaFE/src/app/services/master-url.service.ts" />
-        <option value="$PROJECT_DIR$/PasteleriaFE/src/index.html" />
         <option value="$PROJECT_DIR$/PasteleriaFE/src/app/app.component.html" />
         <option value="$PROJECT_DIR$/PasteleriaFE/src/app/home/home.component.html" />
         <option value="$PROJECT_DIR$/PasteleriaFE/src/app/app.routes.ts" />
         <option value="$PROJECT_DIR$/PasteleriaBE/api/models/Pastel.js" />
         <option value="$PROJECT_DIR$/PasteleriaBE/api/models/Pasteleria.js" />
-        <option value="$PROJECT_DIR$/PasteleriaFE/src/app/pasteleria/pasteleria.component.ts" />
         <option value="$PROJECT_DIR$/PasteleriaBE/config/models.js" />
+        <option value="$PROJECT_DIR$/PasteleriaFE/src/index.html" />
         <option value="$PROJECT_DIR$/PasteleriaFE/src/app/pasteleria/pasteleria.component.html" />
+        <option value="$PROJECT_DIR$/PasteleriaFE/src/app/pasteleria/pasteleria.component.ts" />
         <option value="$PROJECT_DIR$/PasteleriaFE/src/app/pastel/pastel.component.ts" />
         <option value="$PROJECT_DIR$/PasteleriaFE/src/app/pastel/pastel.component.html" />
       </list>
@@ -416,12 +418,12 @@
       <option name="presentableId" value="Default" />
       <updated>1488694346757</updated>
       <workItem from="1488694348450" duration="16080000" />
-      <workItem from="1488767091677" duration="3771000" />
+      <workItem from="1488767091677" duration="10014000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19851000" />
+    <option name="totallyTimeSpent" value="26094000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
@@ -588,14 +590,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PasteleriaFE/src/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="29">
-          <caret line="2" column="6" lean-forward="false" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/PasteleriaBE/config/models.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="230">
@@ -612,34 +606,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PasteleriaFE/src/app/pasteleria/pasteleria.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-580">
-          <caret line="67" column="17" lean-forward="true" selection-start-line="65" selection-start-column="8" selection-end-line="67" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PasteleriaFE/src/app/pasteleria/pasteleria.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="111" column="3" lean-forward="true" selection-start-line="96" selection-start-column="2" selection-end-line="111" selection-end-column="3" />
-          <folding>
-            <element signature="e#0#48#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PasteleriaFE/src/app/pastel/pastel.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1885">
-          <caret line="122" column="41" lean-forward="true" selection-start-line="122" selection-start-column="41" selection-end-line="122" selection-end-column="41" />
-          <folding>
-            <element signature="e#0#48#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/PasteleriaFE/src/app/app.routes.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="87">
@@ -648,11 +614,47 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PasteleriaFE/src/app/pastel/pastel.component.html">
+    <entry file="file://$PROJECT_DIR$/PasteleriaFE/src/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="11" column="58" lean-forward="false" selection-start-line="11" selection-start-column="58" selection-end-line="11" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PasteleriaFE/src/app/pasteleria/pasteleria.component.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="203">
-          <caret line="10" column="26" lean-forward="false" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+          <caret line="91" column="13" lean-forward="true" selection-start-line="89" selection-start-column="10" selection-end-line="91" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#48#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PasteleriaFE/src/app/pasteleria/pasteleria.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1218">
+          <caret line="51" column="73" lean-forward="false" selection-start-line="51" selection-start-column="73" selection-end-line="51" selection-end-column="73" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PasteleriaFE/src/app/pastel/pastel.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="105" column="200" lean-forward="false" selection-start-line="105" selection-start-column="200" selection-end-line="105" selection-end-column="200" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PasteleriaFE/src/app/pastel/pastel.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2320">
+          <caret line="107" column="37" lean-forward="false" selection-start-line="107" selection-start-column="37" selection-end-line="107" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#48#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

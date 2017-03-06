@@ -12,6 +12,7 @@ export class PasteleriaComponent implements OnInit {
 
   nuevaPasteleria = {};
   editarPasteleria = {};
+  sinEditar = {};
   pastelerias = [];
   formulario = {
     crearCerrado: true,
@@ -71,13 +72,13 @@ export class PasteleriaComponent implements OnInit {
       correo: pasteleria.correo
     };
 
-    if (parametros.nombre == '') {
+    if (parametros.nombre == ' ') {
       delete parametros.nombre
     }
-    if (parametros.ciudad == '') {
+    if (parametros.ciudad == ' ') {
       delete parametros.ciudad
     }
-    if (parametros.nombre == '') {
+    if (parametros.nombre == ' ') {
       delete parametros.correo
     }
 
@@ -86,6 +87,9 @@ export class PasteleriaComponent implements OnInit {
       .subscribe(
         res => {
           console.log('Respuesta: ', res.json());
+          this.pastelerias = this.pastelerias.map(function (value) {
+            return value.id == pasteleria.id ? res.json() : value;
+          });
           this.formulario.editarCerrado = true;
         },
         err => {

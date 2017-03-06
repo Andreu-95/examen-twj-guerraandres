@@ -89,13 +89,13 @@ export class PastelComponent implements OnInit {
       urlFoto: pastel.urlFoto
     };
 
-    if (parametros.nombre == '') {
+    if (parametros.nombre == ' ') {
       delete parametros.nombre
     }
-    if (parametros.tiempoElaboracion == '') {
+    if (parametros.tiempoElaboracion == ' ') {
       delete parametros.tiempoElaboracion
     }
-    if (parametros.urlFoto == '') {
+    if (parametros.urlFoto == ' ') {
       delete parametros.urlFoto
     }
 
@@ -104,6 +104,9 @@ export class PastelComponent implements OnInit {
       .subscribe(
         res => {
           console.log('Respuesta: ', res.json());
+          this.pasteles = this.pasteles.map(function (value) {
+            return value.id == pastel.id ? res.json() : value;
+          });
           this.formularioP.editarCerrado = true;
         },
         err => {

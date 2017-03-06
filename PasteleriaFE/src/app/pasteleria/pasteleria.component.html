@@ -12,30 +12,35 @@
   <div class="row" [hidden]="formulario.crearCerrado">
     <div class="col-sm-4"></div>
     <div class="col-sm-4">
-      <form autocomplete="off" (ngSubmit)="crearPasteleria(NuevaPasteleriaForm)" #NuevaPasteleriaForm="ngForm">
-        <div class="form-group">
-          <label for="nombre">Nombre</label>
-          <input type="text" class="form-control" id="nombre" placeholder="Ingrese el nombre de su Pastelería"
-                 name="nombre" required [(ngModel)]="nuevaPasteleria.nombre">
+      <div class="panel panel-default">
+        <div class="panel-heading">Añadir Pastelería</div>
+        <div class="panel-body">
+          <form autocomplete="off" (ngSubmit)="crearPasteleria(NuevaPasteleriaForm)" #NuevaPasteleriaForm="ngForm">
+            <div class="form-group">
+              <label for="nombre">Nombre</label>
+              <input type="text" class="form-control" id="nombre" placeholder="Ingrese el nombre de su Pastelería"
+                     name="nombre" required [(ngModel)]="nuevaPasteleria.nombre">
+            </div>
+            <div class="form-group">
+              <label for="ciudad">Ciudad</label>
+              <input type="text" class="form-control" id="ciudad"
+                     placeholder="Ingrese la ciudad donde se encuentra su Pastelería" name="ciudad" required
+                     [(ngModel)]="nuevaPasteleria.ciudad">
+            </div>
+            <div class="form-group">
+              <label for="correo">Correo</label>
+              <input type="email" class="form-control" id="correo" placeholder="Ingrese el correo de su pastelería"
+                     name="correo" required [(ngModel)]="nuevaPasteleria.correo">
+            </div>
+            <button type="submit" class="btn btn-success"
+                    [disabled]="disabledButtons.CrearFormSubmitButton || !NuevaPasteleriaForm.valid">Añadir Pastelería
+            </button>
+            <button type="button" class="btn btn-warning"
+                    (click)="formulario.crearCerrado = !formulario.crearCerrado">Cancelar
+            </button>
+          </form>
         </div>
-        <div class="form-group">
-          <label for="ciudad">Ciudad</label>
-          <input type="text" class="form-control" id="ciudad"
-                 placeholder="Ingrese la ciudad donde se encuentra su Pastelería" name="ciudad" required
-                 [(ngModel)]="nuevaPasteleria.ciudad">
-        </div>
-        <div class="form-group">
-          <label for="correo">Correo</label>
-          <input type="email" class="form-control" id="correo" placeholder="Ingrese el correo de su pastelería"
-                 name="correo" required [(ngModel)]="nuevaPasteleria.correo">
-        </div>
-        <button type="submit" class="btn btn-success"
-                [disabled]="disabledButtons.CrearFormSubmitButton || !NuevaPasteleriaForm.valid">Añadir Pastelería
-        </button>
-        <button type="button" class="btn btn-warning"
-                (click)="formulario.crearCerrado = !formulario.crearCerrado">Cancelar
-        </button>
-      </form>
+      </div>
     </div>
     <div class="col-sm-4"></div>
   </div>
@@ -43,30 +48,38 @@
   <div class="row" [hidden]="formulario.editarCerrado">
     <div class="col-sm-4"></div>
     <div class="col-sm-4">
-      <form autocomplete="off" (ngSubmit)="actualizarPasteleria(editarPasteleria)" #ActualizarPasteleriaForm="ngForm">
-        <div class="form-group">
-          <label for="nombreEditar">Nombre</label>
-          <input type="text" class="form-control" id="nombreEditar" placeholder="Ingrese el nombre de su Pastelería"
-                 name="nombre" [(ngModel)]="editarPasteleria.nombre">
+      <div class="panel panel-default">
+        <div class="panel-heading">Editar Pastelería - {{editarPasteleria.nombre}}</div>
+        <div class="panel-body">
+          <form autocomplete="off" (ngSubmit)="actualizarPasteleria(editarPasteleria)"
+                #ActualizarPasteleriaForm="ngForm">
+            <div class="form-group">
+              <label for="nombreEditar">Nombre</label>
+              <input type="text" class="form-control" id="nombreEditar" placeholder="Ingrese el nombre de su Pastelería"
+                     name="nombre" [(ngModel)]="editarPasteleria.nombre">
+            </div>
+            <div class="form-group">
+              <label for="ciudadEditar">Ciudad</label>
+              <input type="text" class="form-control" id="ciudadEditar"
+                     placeholder="Ingrese la ciudad donde se encuentra su Pastelería" name="ciudad"
+                     [(ngModel)]="editarPasteleria.ciudad">
+            </div>
+            <div class="form-group">
+              <label for="correoEditar">Correo</label>
+              <input type="email" class="form-control" id="correoEditar"
+                     placeholder="Ingrese el correo de su pastelería"
+                     name="correo" [(ngModel)]="editarPasteleria.correo">
+            </div>
+            <button type="submit" class="btn btn-success"
+                    [disabled]="disabledButtons.EditarFormSubmitButton || !ActualizarPasteleriaForm.valid">Editar
+              Pastelería
+            </button>
+            <button type="button" class="btn btn-warning"
+                    (click)="formulario.editarCerrado = !formulario.editarCerrado">Cancelar
+            </button>
+          </form>
         </div>
-        <div class="form-group">
-          <label for="ciudadEditar">Ciudad</label>
-          <input type="text" class="form-control" id="ciudadEditar"
-                 placeholder="Ingrese la ciudad donde se encuentra su Pastelería" name="ciudad"
-                 [(ngModel)]="editarPasteleria.ciudad">
-        </div>
-        <div class="form-group">
-          <label for="correoEditar">Correo</label>
-          <input type="email" class="form-control" id="correoEditar" placeholder="Ingrese el correo de su pastelería"
-                 name="correo" [(ngModel)]="editarPasteleria.correo">
-        </div>
-        <button type="submit" class="btn btn-success"
-                [disabled]="disabledButtons.EditarFormSubmitButton || !ActualizarPasteleriaForm.valid">Editar Pastelería
-        </button>
-        <button type="button" class="btn btn-warning"
-                (click)="formulario.editarCerrado = !formulario.editarCerrado">Cancelar
-        </button>
-      </form>
+      </div>
     </div>
     <div class="col-sm-4"></div>
   </div>
@@ -86,8 +99,9 @@
         <td>{{pasteleria.ciudad}}</td>
         <td>{{pasteleria.correo}}</td>
         <td>
-          <a (click)="formulario.editarCerrado = !formulario.editarCerrado; editarPasteleria = pasteleria;"
-             class="btn btn-info btn-block">Editar</a>
+          <a
+            (click)="formulario.editarCerrado = !formulario.editarCerrado; editarPasteleria = {id: pasteleria.id, nombre: pasteleria.nombre, ciudad: pasteleria.ciudad, correo: pasteleria.correo}"
+            class="btn btn-info btn-block">Editar</a>
         </td>
         <td>
           <a (click)="borrarPasteleria(pasteleria.id)" class="btn btn-danger btn-block">Eliminar</a>
