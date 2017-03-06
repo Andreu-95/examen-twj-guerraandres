@@ -2,8 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="62fb5612-476f-40ad-9773-ec91f795471e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PasteleriaBE/assets/main.bundle.js" afterPath="$PROJECT_DIR$/PasteleriaBE/assets/main.bundle.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PasteleriaBE/assets/assets/animate.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PasteleriaBE/assets/assets/bootstrap-3.3.7-dist/css/bootstrap-theme.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PasteleriaBE/assets/assets/bootstrap-3.3.7-dist/css/bootstrap-theme.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PasteleriaBE/assets/assets/bootstrap-3.3.7-dist/css/bootstrap-theme.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PasteleriaBE/assets/assets/bootstrap-3.3.7-dist/css/bootstrap-theme.min.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PasteleriaBE/assets/assets/bootstrap-3.3.7-dist/css/bootstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PasteleriaBE/assets/assets/bootstrap-3.3.7-dist/css/bootstrap.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PasteleriaBE/assets/assets/bootstrap-3.3.7-dist/css/bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PasteleriaBE/assets/assets/bootstrap-3.3.7-dist/css/bootstrap.min.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PasteleriaBE/assets/assets/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PasteleriaBE/assets/assets/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PasteleriaBE/assets/assets/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PasteleriaBE/assets/assets/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PasteleriaBE/assets/assets/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PasteleriaBE/assets/assets/bootstrap-3.3.7-dist/js/bootstrap.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PasteleriaBE/assets/assets/bootstrap-3.3.7-dist/js/bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PasteleriaBE/assets/assets/bootstrap-3.3.7-dist/js/npm.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PasteleriaBE/assets/assets/jquery-3.1.1.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PasteleriaBE/assets/favicon.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PasteleriaBE/assets/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PasteleriaBE/assets/inline.bundle.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PasteleriaBE/assets/main.bundle.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PasteleriaBE/assets/polyfills.bundle.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PasteleriaBE/assets/styles.bundle.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PasteleriaBE/assets/vendor.bundle.js" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -431,12 +454,12 @@
       <option name="presentableId" value="Default" />
       <updated>1488694346757</updated>
       <workItem from="1488694348450" duration="16080000" />
-      <workItem from="1488767091677" duration="13544000" />
+      <workItem from="1488767091677" duration="13656000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29624000" />
+    <option name="totallyTimeSpent" value="29736000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
