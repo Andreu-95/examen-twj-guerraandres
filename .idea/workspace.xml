@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="62fb5612-476f-40ad-9773-ec91f795471e" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PasteleriaBE/assets/favicon.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PasteleriaBE/assets/images/.gitkeep" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PasteleriaBE/assets/js/dependencies/sails.io.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PasteleriaBE/assets/robots.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PasteleriaBE/assets/styles/importer.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PasteleriaBE/assets/templates/.gitkeep" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PasteleriaBE/config/routes.js" afterPath="$PROJECT_DIR$/PasteleriaBE/config/routes.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PasteleriaFE/src/app/services/master-url.service.ts" afterPath="$PROJECT_DIR$/PasteleriaFE/src/app/services/master-url.service.ts" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -35,7 +29,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="routes.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="master-url.service.ts" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/PasteleriaFE/src/app/services/master-url.service.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="174">
+              <caret line="7" column="6" lean-forward="false" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="routes.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PasteleriaBE/config/routes.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="319">
@@ -55,7 +59,6 @@
       <list>
         <option value="$PROJECT_DIR$/PasteleriaBE/config/cors.js" />
         <option value="$PROJECT_DIR$/PasteleriaFE/src/app/app.module.ts" />
-        <option value="$PROJECT_DIR$/PasteleriaFE/src/app/services/master-url.service.ts" />
         <option value="$PROJECT_DIR$/PasteleriaFE/src/app/app.component.html" />
         <option value="$PROJECT_DIR$/PasteleriaFE/src/app/home/home.component.html" />
         <option value="$PROJECT_DIR$/PasteleriaFE/src/app/app.routes.ts" />
@@ -68,6 +71,7 @@
         <option value="$PROJECT_DIR$/PasteleriaFE/src/app/pasteleria/pasteleria.component.ts" />
         <option value="$PROJECT_DIR$/PasteleriaFE/src/app/pasteleria/pasteleria.component.html" />
         <option value="$PROJECT_DIR$/PasteleriaBE/config/routes.js" />
+        <option value="$PROJECT_DIR$/PasteleriaFE/src/app/services/master-url.service.ts" />
       </list>
     </option>
   </component>
@@ -412,19 +416,19 @@
       <option name="presentableId" value="Default" />
       <updated>1488694346757</updated>
       <workItem from="1488694348450" duration="16080000" />
-      <workItem from="1488767091677" duration="12359000" />
+      <workItem from="1488767091677" duration="12688000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28439000" />
+    <option name="totallyTimeSpent" value="28768000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -514,14 +518,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/PasteleriaFE/src/app/routes.ts" />
-    <entry file="file://$PROJECT_DIR$/PasteleriaFE/src/app/services/master-url.service.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="15" column="24" lean-forward="false" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/PasteleriaFE/src/app/app.module.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="754">
@@ -637,14 +633,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PasteleriaFE/src/app/app.routes.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="7" column="27" lean-forward="false" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/PasteleriaBE/assets/assets/animate.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -657,6 +645,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="319">
           <caret line="38" column="4" lean-forward="false" selection-start-line="38" selection-start-column="4" selection-end-line="38" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PasteleriaFE/src/app/app.routes.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="7" column="27" lean-forward="false" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PasteleriaFE/src/app/services/master-url.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="7" column="6" lean-forward="false" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
           <folding />
         </state>
       </provider>
